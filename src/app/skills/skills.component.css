@@ -1,0 +1,40 @@
+#skills-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#skills-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#skills ul {
+    list-style: none;
+}
+
+#skills ul li {
+    margin: 10px 0;
+}
+
+progress[value] {
+    height: 10px;
+    width: 350px;
+    -webkit-appearance: none;
+}
+
+progress[value] ::-webkit-progress-bar {
+    background-color: grey;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25 inset);
+
+}
+
+::-webkit-progress-value {
+    background-color: #F05136;
+}
+
+#skills ul {
+    font-size: 1.5em;
+}
